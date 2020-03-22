@@ -1,0 +1,8 @@
+Created by Patrick Winter in a hurry. Please use with caution, and usually don't use at all for i-feel-you (we do).
+
+1: Use download_data_from_osm.py to download data from OSM.
+2: Use actions_in_ify.py with ACTION=1 to register vendors. Automatically by Sharetribe, confirmation emails are created and sent to the specified addresses (a catch-all address is needed).
+3: Use Outlook to catch these mails and export them as .csv file.
+4: Use confirm_email.py to execute the confirmation links present in such emails.
+5: Use actions_in_ify.py with ACTION=2 to update the vendors' profiles and to create a coupon for each of them.
+(6: If you want to mass-delete accounts which, e.g., were created for testing, use actions_in_ify.py with ACTION=3)
